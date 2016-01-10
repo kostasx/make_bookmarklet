@@ -21,3 +21,4 @@ $ node make_bookmarklet.js source.js
 * Compare source and target AST
 * Add Tests
 * Create a Desktop app based on Electron for quick drag-n-drop functionality?
+* Create a browser version
