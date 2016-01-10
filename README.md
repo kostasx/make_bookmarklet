@@ -17,6 +17,7 @@ $ node make_bookmarklet.js source.js
 ```
 
 # TODO
+* Remove spaces before and after the equal sign
 * Compare source and target AST
 * Add Tests
 * Create a Desktop app based on Electron for quick drag-n-drop functionality?
