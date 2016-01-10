@@ -6,11 +6,15 @@ Read the related [article here](http://daringfireball.net/2007/03/javascript_boo
 
 # Usage:
 
+```
 coffee make_bookmarklet.coffee source.js
+```
 
 or
 
+```
 node make_bookmarklet.js source.js
+```
 
 # TODO
 * Compare source and target AST
