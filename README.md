@@ -18,3 +18,4 @@ $ node make_bookmarklet.js source.js
 
 # TODO
 * Compare source and target AST
+* Add Tests
