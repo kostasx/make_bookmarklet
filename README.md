@@ -1,7 +1,6 @@
-# make_bookmarklet
-JavaScript Bookmarklet Builder
+# JavaScript Bookmarklet Builder
 
-This is a port from the [Perl script](https://gist.github.com/gruber/8658935) by [John Gruber](https://github.com/gruber).
+This is a port from the Perl script [make_boomarklet.pl](https://gist.github.com/gruber/8658935) by [John Gruber](https://github.com/gruber).
 
 Read the related [article here](http://daringfireball.net/2007/03/javascript_bookmarklet_builder).
 
