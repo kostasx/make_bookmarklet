@@ -14,21 +14,7 @@ pbcopy = function(data) {
   return proc.stdin.end();
 };
 
-bookmarklet = source.replace(/^\s?javascript:/gm, "");
-
-bookmarklet = bookmarklet.replace(/^\s*\/\/.+/gm, "");
-
-bookmarklet = bookmarklet.replace(/^\s*\/\*[^]+?\*\/\n?/gm, "");
-
-bookmarklet = bookmarklet.replace(/\t/g, " ");
-
-bookmarklet = bookmarklet.replace(/[ ]{2,}/g, " ");
-
-bookmarklet = bookmarklet.replace(/^\s+/gm, "");
-
-bookmarklet = bookmarklet.replace(/\s+$/gm, "");
-
-bookmarklet = bookmarklet.replace(/\n/gm, "");
+bookmarklet = source.replace(/^\s?javascript:/gm, "").replace(/^\s*\/\/.+/gm, "").replace(/^\s*\/\*[^]+?\*\/\n?/gm, "").replace(/\t/g, " ").replace(/[ ]{2,}/g, " ").replace(/^\s+/gm, "").replace(/\s+$/gm, "").replace(/\n/gm, "");
 
 bookmarklet = "javascript:" + encodeURIComponent(bookmarklet);
 
